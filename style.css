@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.logo{
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.heads ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.heads ul li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    font-family: monospace;
+}
+.heads ul li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 250px;
+    background: rgba(238, 233, 233, 0.9);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.front_page{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+#left_side p{
+    color:gray ;
+    margin-bottom: 25px;
+}
+#left_side h1{
+    font-size: 90px;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+#left_bottom {
+    display: flex;
+}
+#left_bottom h2{
+   font-size: 100px;
+    font-weight: bolder; 
+}
+#paragraphs {
+    margin: 20px;
+    line-height: 0.15;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+#paragraphs img{
+    width: 28px;
+    height: 28px;
+}
+#paragraphs #p1 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+#paragraphs #p2 {
+    color: rgb(93, 92, 92);
+}
+#right_side ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0;
+  
+}
+#right_side ul li {
+    background: rgb(248, 247, 247);
+    border-radius: 7px;
+    padding: 29px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.card-label {
+    color: rgb(93, 92, 92);
+}
+.card-value {
+    font-size: 30px;
+    font-weight: bold;
+}
+footer {
+    display: flex;
+    gap: 600px;
+}
+footer p {
+    margin-left: 70px;
+    letter-spacing: 0.5px;
+}
+footer ul  {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+footer ul li {
+    color: rgb(93, 92, 92);
+}
